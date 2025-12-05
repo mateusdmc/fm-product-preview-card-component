@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor | Social Product preview card component</title>
+    <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon">
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-[#F3EAE3]">
+    <div class="flex justify-center items-center w-full px-3 py-20 sm:h-screen">
+        <div class="sm:flex">
+            <div>
+                <img src="./assets/img/image-product-mobile.jpg" alt="img-mobile" class="rounded-t-lg sm:hidden">
+                <img src="./assets/img/image-product-desktop.jpg" alt="img-mobile" class="rounded-l-lg hidden min-w-[300px] h-[450px] sm:block">
+            </div>
+            <div class="bg-white p-8 rounded-bl-lg rounded-br-lg sm:w-[300px] sm:h-[450px] sm:rounded-bl-none sm:rounded-tr-lg">
+                <div class="flex flex-col gap-7 mb-6">
+                    <p class="leading-none text-[#858891] font-montserrat text-[12px] uppercase tracking-[6px]">Perfume</p>
+                    <h2 class="leading-none text-[#070C12] font-fraunces font-bold text-[32px]">Gabrielle Essence Eau De Parfum</h2>
+                    <p class="leading-[22px] tracking-[0.4px] text-[#858891] font-montserrat text-[14px]">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+                </div>
+                <div class="flex flex-col gap-[26px]">
+                    <div class="flex items-center gap-[18px]">
+                        <p class="leading-none text-[#3D8168] font-fraunces font-bold text-[32px]">$149.99</p>
+                        <p class="leading-none text-[#858891] font-montserrat text-[14px] line-through">$169.99</p>
+                    </div>
+                    <div>
+                        <button class="bg-[#3D8168] w-full text-white font-montserrat font-semibold text-[14px] rounded-[10px] py-4 hover:bg-[#1A4031] active:bg-[#1A4031] cursor-pointer">
+                            <div class="flex justify-center gap-2">
+                                <img src="./assets/img/icon-cart.svg" alt="icon-cart" class="w-[18px] h-[17px]">
+                                <p>Add to Cart</p>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
