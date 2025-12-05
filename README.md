@@ -8,7 +8,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Link
 
-- Solution URL: [Live Site](#)
+- Solution URL: [Live Site](https://mateusdmc.github.io/fm-product-preview-card-component/)
 
 ## My process
 

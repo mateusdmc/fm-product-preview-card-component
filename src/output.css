@@ -168,6 +168,9 @@
   }
 }
 @layer utilities {
+  .static {
+    position: static;
+  }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
   }
